@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>BT-5_P-3_From-Validation</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-2">
+          <h4 class="inf mb-4">From-Validation.</h4>
+          <!-- from-start -->
+          <form class="needs-validation" novalidate>
+            <div class="row">
+
+              <!-- First-name-start -->
+              <div class="col-lg-6 mb-3">
+                <label for="first_name" class="form-label">First name</label>
+                <input type="text" class="form-control shadow-lg" id="first_name" placeholder="Enter your first name" required>
+
+               <!-- valid-feedback -->
+                <div class="valid-feedback">
+                 Looks good!
+                </div>
+               <!-- valid-feedback -->
+
+                <!-- invalid-feedback -->
+                <div class="invalid-feedback">
+                Please Enter Your Firts Name.
+                 </div>
+                <!-- invalid-feedback -->
+              </div>
+              <!-- First-name-end -->
+
+              <!-- Last-name-start -->
+              <div class="col-lg-6">
+                    <label for="last_name" class="form-label">Last name</label>
+                    <input type="text" class="form-control shadow-lg" id="last_name" placeholder="Enter your last name" required>
+
+                    <!-- valid-feedback -->
+                  <div class="valid-feedback">
+                   Looks good!
+                  </div>
+                    <!-- valid-feedback -->
+
+                    <!-- invalid-feedback -->
+                 <div class="invalid-feedback">
+                      Please Enter Your Last Name.
+                     </div>
+                    <!-- invalid-feedback -->       
+              </div>
+              <!-- Last-name-end -->
+
+              <!-- Username-start -->
+              <div class="col-lg-12 mb-3">
+                 <label for="username" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Enter your Username"  required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                </div>
+              </div>
+              <!-- Username-end -->
+
+              <!-- Email-section-start -->
+              <div class="col-lg-12 mb-3">
+                <div class="row">
+
+                  <!-- Email-Address -->
+                  <div class="col-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="text" class="form-control shadow-lg" id="email" placeholder="Enter your email address" required>
+                 <!-- valid-feedback -->
+                    <div class="valid-feedback">
+                     Looks good!
+                    </div>
+                 <!-- valid-feedback -->
+
+                 <!-- invalid-feedback -->
+                    <div class="invalid-feedback">
+                      Please Enter Your email address.
+                  </div>
+                 <!-- invalid-feedback -->
+                  </div>
+                  <!-- Email-Address -->
+
+
+                  <!-- Password -->
+                  <div class="col-lg-6">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="text" class="form-control shadow-lg" id="password" placeholder="Enter your email password" required>
+                       <!-- valid-feedback -->
+                    <div class="valid-feedback">
+                     Looks good!
+                    </div>
+                       <!-- valid-feedback -->
+
+                       <!-- invalid-feedback -->
+                    <div class="invalid-feedback">
+                         Please Enter Your email password.
+                        </div>
+                       <!-- invalid-feedback -->
+                  </div>
+                  <!-- Password -->
+
+                </div>
+              </div>
+              <!-- Email-section-end -->
+
+              <div class="col-lg-12 mb-3">
+                <label for="address" class="form-label">Address</label>
+                    <input type="text" class="form-control shadow-lg" id="address" placeholder="Enter your address" required>
+                       <!-- valid-feedback -->
+                    <div class="valid-feedback">
+                     Looks good!
+                    </div>
+                       <!-- valid-feedback -->
+
+                       <!-- invalid-feedback -->
+                    <div class="invalid-feedback">
+                         Please Enter Your address.
+                        </div>
+                       <!-- invalid-feedback -->
+              </div>
+
+              <!-- City-start -->
+               <div class="col-lg-6">
+                <label for="city" class="form-label">City</label>
+                <select class="form-select" id="city" required >
+                  <option selected disabled value="">Choose...</option>
+                  <option>Bangladesh</option>
+                </select>
+
+                <!-- valid-feedback -->
+                <div class="valid-feedback">
+                     Looks good!
+                </div>
+                <!-- valid-feedback -->
+
+                <!-- invalid-feedback -->
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+                <!-- invalid-feedback -->
+
+              </div>
+              <!-- City-end -->
+
+              <!-- State -->
+              <div class="col-lg-3">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Dhaka</option>
+                  <option>Barishal</option>
+                  <option>Khulna</option>
+                  <option>Rangpur</option>
+                </select>
+
+                <!-- valid-feedback -->
+                <div class="valid-feedback">
+                     Looks good!
+                </div>
+                <!-- valid-feedback -->
+
+                <!-- invalid-feedback -->
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+                <!-- invalid-feedback -->
+
+              <!-- State -->
+
+              <div class="col-lg-3">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="Enter Zip" required>
+
+                <!-- valid-feedback -->
+                <div class="valid-feedback">
+                     Looks good!
+                </div>
+                <!-- valid-feedback -->
+
+                <!-- invalid-feedback -->
+                <div class="invalid-feedback">
+                  Please provide a valid zip.
+                </div>
+                <!-- invalid-feedback -->
+
+              </div>
+            </div>
+
+            <hr>
+
+            <!-- checkbox-start -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="Check" required>
+              <label class="form-check-label" for="Check">
+                Agree to terms and conditions
+              </label>
+
+              <!-- invalid-feedback -->
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+              <!-- invalid-feedback -->
+
+            </div>
+            <!-- checkbox-end -->
+            <hr>
+
+            <!-- Payment-section-start -->
+            <h4>Payment</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="card" id="Check_p_1" required>
+              <label class="form-check-label" for="Check_p_1">
+                Cradit Card
+              </label>
+
+              <!-- invalid-feedback -->
+              <div class="invalid-feedback">
+                Please Choose Type of Card.
+              </div>
+              <!-- invalid-feedback -->
+
+            </div>
+
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" name="card" id="Check_p_2" required>
+              <label class="form-check-label" for="Check_p_2">
+                Debit Card
+              </label>
+
+              <!-- invalid-feedback -->
+              <div class="invalid-feedback">
+                Please Choose Type of Card.
+              </div>
+              <!-- invalid-feedback -->
+              
+            </div>
+            <!-- Payment-section-end -->
+
+
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+                    <label for="cardname" class="form-label">Card Name</label>
+                    <input type="text" class="form-control shadow-lg" id="cardname" placeholder="Enter your Card Name" required>
+                    <small class="text-muted">Full name as displayed on card</small>
+                       <!-- valid-feedback -->
+                    <div class="valid-feedback">
+                     Looks good!
+                    </div>
+                       <!-- valid-feedback -->
+
+                       <!-- invalid-feedback -->
+                    <div class="invalid-feedback">
+                         Please Enter Your Card Name.
+                        </div>
+                       <!-- invalid-feedback --> 
+              </div>
+              <div class="col-lg-6">
+                <label for="craditcardname" class="form-label">Cradit Card Name</label>
+                <input type="text" class="form-control shadow-lg" id="craditcardname" placeholder="Enter your Cradit Card Name" required>
+
+                <!-- valid-feedback -->
+                <div class="valid-feedback">
+                     Looks good!
+                    </div>
+                       <!-- valid-feedback -->
+
+                       <!-- invalid-feedback -->
+                    <div class="invalid-feedback">
+                         Please Enter Your Cradit Card Name.
+                        </div>
+                       <!-- invalid-feedback --> 
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-lg-3">
+                  <label for="expiration" class="form-label">Expiration</label>
+                  <input type="text" class="form-control shadow-lg" id="expiration" placeholder="Enter Expiration" required>
+
+                <!-- valid-feedback -->
+                <div class="valid-feedback">
+                     Looks good!
+                    </div>
+                       <!-- valid-feedback -->
+
+                       <!-- invalid-feedback -->
+                    <div class="invalid-feedback">
+                         Please Enter Expiration.
+                        </div>
+                       <!-- invalid-feedback -->
+                </div>
+                <div class="col-lg-3">
+                  <label for="cvv" class="form-label">CVV</label>
+                  <input type="text" class="form-control shadow-lg" id="cvv" placeholder="Enter CVV" required>
+
+                <!-- valid-feedback -->
+                <div class="valid-feedback">
+                     Looks good!
+                </div>
+                <!-- valid-feedback -->
+
+                    <!-- invalid-feedback -->
+                <div class="invalid-feedback">
+                     Please Enter CVV.
+                     </div>
+                    <!-- invalid-feedback -->
+                </div>
+
+              </div>
+            </div>
+            <hr>
+
+              <!-- button-start -->
+           <div class="col-lg-6 mb-3">
+             <button class="btn btn-outline-danger shadow-lg" type="submit">Submit</button>
+           </div>
+            <!-- button-end -->
+
+          </form>
+          <!-- from-end -->
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+    <!-- Bootstrap JS link -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript">
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+       (function () {
+         'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+         var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+         Array.prototype.slice.call(forms)
+           .forEach(function (form) {
+             form.addEventListener('submit', function (event) {
+               if (!form.checkValidity()) {
+                 event.preventDefault()
+                 event.stopPropagation()
+               }
+
+               form.classList.add('was-validated')
+             }, false)
+           })
+       })()
+    </script>
+    
+  </body>
+</html>
